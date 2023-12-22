@@ -1,8 +1,8 @@
 {
-  "name": "innovate-beyond",
+  "name": "dive-deeper",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://camilapaleno.github.io/innovate-beyond",
+  "homepage": "https://camilapaleno.github.io/dive-deeper",
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.9",
