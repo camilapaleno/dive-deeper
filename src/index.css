@@ -112,8 +112,28 @@ nav {
 
 .hero img:nth-child(1) {
   opacity: 20%;
+  padding-top: 50px;
 }
 
 .hero img:nth-child(2) {
   opacity: 50%;
+}
+
+@media (max-width: 768px) {
+  .nav-links li:nth-child(2), .nav-links li:nth-child(3), .nav-links li:nth-child(4){
+    display: none;
+  }
+  .nav-links {
+    padding: 2rem;
+  }
+
+  .nav-links li {
+    padding: 0px 0px 0px 0px; 
+  }
+
+  .hero {
+    padding: 2rem;
+
+  }
+
 }

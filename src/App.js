@@ -18,23 +18,25 @@ export default function App() {
 
 
         <ul class="nav-links">
-            <li>&#x274B;</li>
-            <li>&#x263C;</li>
-            <li>&#x2722;</li>
+
+            <li>&#x2734;</li>
         </ul>
 
       </nav>
 
       <section class="hero">
           <div class="container">
+           
               <img src={HeroText}></img>
               <img src={HeroText}></img>
               <img src={HeroText}></img>
               <p>
                 Immerse yourself in a world of intrigue and beauty as we unveil the extraordinary – because beneath the surface lies a cinematic universe waiting to be discovered. Join us in the exploration of the unknown, where the ocean's enigma becomes an immersive, visual experience. 
-                Immerse yourself in a world of intrigue and beauty as we unveil the extraordinary – because beneath the surface lies a cinematic universe waiting to be discovered. Join us in the exploration of the unknown, where the ocean's enigma becomes an immersive, visual experience.
+
                 
               </p>
+              <br/>
+              <h2>&#x2734; &#x2734; &#x2734;</h2>
 
           </div>
       </section>
