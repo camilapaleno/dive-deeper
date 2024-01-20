@@ -1,4 +1,5 @@
 import Spline from '@splinetool/react-spline';
+import HeroText from './dd-text.png';
 
 export default function App() {
   return (
@@ -9,25 +10,32 @@ export default function App() {
       <nav>
 
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact</a></li>
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>Contact</li>
         </ul>
 
+
         <ul class="nav-links">
-            <li><a href="#">&#x274B;</a></li>
-            <li><a href="#">&#x272D;</a></li>
-            <li><a href="#">&#x273A;</a></li>
-            <li><a href="#">&#x2739;</a></li>
+            <li>&#x274B;</li>
+            <li>&#x263C;</li>
+            <li>&#x2722;</li>
         </ul>
 
       </nav>
 
       <section class="hero">
           <div class="container">
-              <h1>DIVE DEEPER.</h1>
-              <p>Immerse yourself in a world of intrigue and beauty as we unveil the extraordinary – because beneath the surface lies a cinematic universe waiting to be discovered. Join us in the exploration of the unknown, where the ocean's enigma becomes an immersive, visual experience. </p>
+              <img src={HeroText}></img>
+              <img src={HeroText}></img>
+              <img src={HeroText}></img>
+              <p>
+                Immerse yourself in a world of intrigue and beauty as we unveil the extraordinary – because beneath the surface lies a cinematic universe waiting to be discovered. Join us in the exploration of the unknown, where the ocean's enigma becomes an immersive, visual experience. 
+                Immerse yourself in a world of intrigue and beauty as we unveil the extraordinary – because beneath the surface lies a cinematic universe waiting to be discovered. Join us in the exploration of the unknown, where the ocean's enigma becomes an immersive, visual experience.
+                
+              </p>
+
           </div>
       </section>
 
